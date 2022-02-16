@@ -14,7 +14,7 @@ def get_dataset(filename, rows=None):
     #The API only returns one page at a time with 1000 games
     #For more pages add more pages. Not really sure how many pages
     #There are
-    responses = get_request_amt.getRequest(url, 4)
+    responses = get_request_amt.getRequest(url, 10)
 
     current = 0
     for x in responses:
