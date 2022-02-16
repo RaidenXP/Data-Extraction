@@ -12,6 +12,6 @@ def getRequest(url, pageAmt=1):
             appId.append(str(y))
         
         #pause a bit for the next page of requests
-        time.sleep(5)
+        time.sleep(1)
     
     return appId
